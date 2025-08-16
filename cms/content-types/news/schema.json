@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news",
+  "info": {
+    "singularName": "news",
+    "pluralName": "news",
+    "displayName": "News",
+    "description": "News articles for DPR RI member"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

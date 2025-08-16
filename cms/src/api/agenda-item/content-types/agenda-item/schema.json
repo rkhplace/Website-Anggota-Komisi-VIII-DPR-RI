@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agenda_items",
+  "info": {
+    "singularName": "agenda-item",
+    "pluralName": "agenda-items",
+    "displayName": "Agenda Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

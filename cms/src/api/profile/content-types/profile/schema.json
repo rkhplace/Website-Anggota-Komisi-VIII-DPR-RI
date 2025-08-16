@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "profiles",
+  "info": {
+    "singularName": "profile",
+    "pluralName": "profiles",
+    "displayName": "Profile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "shortGreeting": {
+      "type": "blocks"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "biography": {
+      "type": "blocks"
+    },
+    "education": {
+      "type": "json"
+    },
+    "experiences": {
+      "type": "json"
+    },
+    "vision": {
+      "type": "blocks"
+    },
+    "mission": {
+      "type": "json"
+    }
+  }
+}

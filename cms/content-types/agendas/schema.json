@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agendas",
+  "info": {
+    "singularName": "agendas",
+    "pluralName": "agendas",
+    "displayName": "Agendas",
+    "description": "Agenda items for DPR RI member"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date",
+      "required": true
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
