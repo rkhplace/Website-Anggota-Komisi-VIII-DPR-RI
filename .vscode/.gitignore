@@ -1,0 +1,11 @@
+# Dependency
+frontend/node_modules
+cms/node_modules
+
+# Build output
+frontend/.next
+frontend/dist
+frontend/out
+
+# Env
+.env
